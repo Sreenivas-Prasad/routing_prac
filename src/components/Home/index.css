@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.forHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.home-i {
+  height: 180px;
+  width: 180px;
+}
+.heading3 {
+  font-family: 'Roboto';
+  color: #6d396b;
+}
+
+@media (min-width: 768px) {
+  .home-i {
+    height: 260px;
+    width: 260px;
+  }
+  .heading3 {
+    font-size: 40px;
+  }
+}

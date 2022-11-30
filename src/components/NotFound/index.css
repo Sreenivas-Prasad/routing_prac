@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+.forHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.not-i {
+  height: 180px;
+  width: 180px;
+}
+.heading4 {
+  font-family: 'Roboto';
+  color: #6d396b;
+}
+@media (min-width: 768px) {
+  .not-i {
+    height: 300px;
+    width: 300px;
+  }
+  .heading4 {
+    font-size: 40px;
+  }
+}

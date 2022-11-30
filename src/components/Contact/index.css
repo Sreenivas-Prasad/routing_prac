@@ -1,0 +1,25 @@
+.forHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.contact-i {
+  height: 180px;
+  width: 180px;
+}
+.heading2 {
+  font-family: 'Roboto';
+  color: #6d396b;
+}
+
+@media (min-width: 768px) {
+  .contact-i {
+    height: 260px;
+    width: 260px;
+  }
+  .heading2 {
+    font-size: 40px;
+  }
+}
